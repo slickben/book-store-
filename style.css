@@ -1,0 +1,85 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#book-container{
+    position: absolute;
+    width: 400px;
+    margin: auto;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}
+
+.container{
+    margin: 20px auto;
+
+}
+
+.container input{
+    width: 100%;
+    margin: 7px 0;
+}
+
+.container #form-group{
+    margin: 10px auto;
+}
+
+.container #book-form .btn{
+    background-color: #00aeff;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    border: none
+}
+
+.container h1{
+    text-transform: capitalize;
+    text-align: center
+}
+
+.container  h1 span{
+    color: #00aeff;
+    
+}
+
+table{
+    width: 100%;
+    border-top: 1px solid rgba(136, 127, 127, 0.63);
+
+}
+
+table tr{
+    text-align: center;
+    height: 30px;
+    margin: 14px 0;
+    
+}
+
+table tbody tr:nth-child(odd){
+    background-color: rgb(231, 226, 226);
+    border: none;
+
+}
+
+table td{
+    margin: 0;
+    border-spacing: 0;
+}
+
+.alert-success{
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    padding: 20px 0
+}
+
+.alert-danger{
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 20px 0
+}
+
